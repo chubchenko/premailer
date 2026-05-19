@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+ruby(file: '.ruby-version')
+
+# Benchmarking
+gem 'benchmark-ips',    '~> 2.14'
+gem 'memory_profiler',  '~> 1.1'
+gem 'terminal-table',   '~> 4.0'
+
+gem 'csv', '~> 3.3'
+
+gem 'premailer', '~> 1.29'
+gem 'nokogiri', '~> 1.19'
